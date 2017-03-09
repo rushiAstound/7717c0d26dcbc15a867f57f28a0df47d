@@ -16,4 +16,10 @@
     <dimen name="img_profile_diameter">70.0dp</dimen>
     <dimen name="img_profile_total_height">88.0dp</dimen>
     <dimen name="img_profile_margin">16.0dp</dimen>
+
+    <!-- text size dimensions  -->
+    <dimen name="dimen_txt_50">26.0sp</dimen>
+
+    <!-- image height dimensions -->
+    <dimen name="dimen_img_height">60.0dp</dimen>
 </resources>
