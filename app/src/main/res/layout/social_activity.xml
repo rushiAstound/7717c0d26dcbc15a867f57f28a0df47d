@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@id/imgProfileLocation"
+                  android:orientation="horizontal"
+                  android:weightSum="2">
+
+        <RelativeLayout
+            android:id="@+id/rlSocialPosts"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/txtSocialTotalPosts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/txt_social_total_posts"/>
+
+            <TextView
+                android:id="@+id/txtSocialPosts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtSocialTotalPosts"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/component_medium_margin"
+                android:text="@string/txt_social_posts"/>
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/viewSocialDivider"
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorThemeDarkGreen"/>
+
+        <RelativeLayout
+            android:id="@+id/rlSocialFriends"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/txtSocialTotalFriends"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/txt_social_total_friends"/>
+
+            <TextView
+                android:id="@+id/txtSocialFriends"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtSocialTotalFriends"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/component_medium_margin"
+                android:text="@string/txt_social_friends"/>
+        </RelativeLayout>
+    </LinearLayout>
+</merge>

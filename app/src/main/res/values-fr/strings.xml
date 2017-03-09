@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ZeChat</string>
+    <string name="btn_get_started">Obtenir Commencé</string>
+    <string name="btn_sign_in">Sign In</string>
+    <string name="btn_sign_up">Inscrivez-vous</string>
+    <string name="hint_common">Email/nom d\'utilisateur/Mobile</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Mot de passe oublié</string>
+    <string name="hint_phone">Numéro de téléphone</string>
+    <string name="hint_user_name">Nom d\'utilisateur</string>
+    <string name="txt_forgot_password">Mot de passe oublié ?</string>
+    <string name="txt_heading_sign_up">Inscrivez-vous</string>
+    <string name="btn_submit">soumettre</string>
+    <string name="toast_email_empty_sign_up">S\'il vous plaît, mettez une adresse email valide!!</string>
+    <string name="toast_failure_forgot_pass">Email invalide!!</string>
+    <string name="toast_failure_login">Nom d\'utilisateur ou mot de passe incorrect!</string>
+    <string name="toast_failure_network_login">Il y avait un problème de réseau. Veuillez réessayer!!</string>
+    <string name="txt_progressdialog">S\'il vous plaît, attendez&#8230;</string>
+    <string name="toast_success_sign_up">Compte créé avec succès!! Merci de vous connecter pour continuer.</string>
+    <string name="toast_success_login">Login Success !!</string>
+    <string name="toast_success_forgot_pass">Réinitialisation de mot de passe avec succès!</string>
+    <string name="toast_failure_sign_up">Nom d\'utilisateur ou mot de passe incorrect!</string><!--Forgot Password-->
+</resources>

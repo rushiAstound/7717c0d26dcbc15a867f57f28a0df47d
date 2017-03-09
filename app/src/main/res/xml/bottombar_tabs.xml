@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/tab_chat"
+        icon="@drawable/chat_sticky_footer"
+        title="Chat" />
+    <tab
+        id="@+id/tab_friends"
+        icon="@drawable/friends_sticky_footer"
+        title="Friends" />
+    <tab
+        id="@+id/tab_notifications"
+        icon="@drawable/notification_sticky_footer"
+        title="Notification" />
+    <tab
+        id="@+id/tab_profile"
+        icon="@drawable/profile_sticky_footer"
+        title="Profile" />
+</tabs>

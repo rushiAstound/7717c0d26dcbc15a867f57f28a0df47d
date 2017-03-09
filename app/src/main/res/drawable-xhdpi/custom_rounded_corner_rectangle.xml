@@ -1,0 +1,19 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Define the background properties like color etc -->
+    <item
+        android:id="@android:id/background">
+        <shape android:shape="rectangle">
+
+            <stroke android:color="@color/colorThemeDarkGreen"
+                android:width="3px"/>  <!-- background color -->
+
+            <corners
+                android:bottomLeftRadius="30dp"
+                android:bottomRightRadius="30dp"
+                android:topLeftRadius="30dp"
+                android:topRightRadius="30dp"/>
+        </shape>
+    </item>
+
+</layer-list>
