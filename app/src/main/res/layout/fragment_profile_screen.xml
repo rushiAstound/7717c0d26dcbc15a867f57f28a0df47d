@@ -21,14 +21,14 @@
             app:expandedTitleMarginStart="48dp"
             app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
-            <ImageView
+<!--            <ImageView
                 android:id="@+id/imgProfileCollapseBackImage"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
                 android:src="@drawable/logo_astound"
                 app:layout_collapseMode="parallax"
-                app:layout_collapseParallaxMultiplier="0"/>
+                app:layout_collapseParallaxMultiplier="0"/>-->
 
         </android.support.design.widget.CollapsingToolbarLayout>
 
