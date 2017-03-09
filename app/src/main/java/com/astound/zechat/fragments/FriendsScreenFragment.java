@@ -9,6 +9,8 @@ import android.view.ViewGroup;
 
 import com.astound.zechat.R;
 
+import butterknife.BindView;
+
 //1
 public class FriendsScreenFragment extends Fragment
 {
